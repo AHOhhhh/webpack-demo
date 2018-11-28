@@ -4,7 +4,7 @@ class Test {
   }
 
   showName() {
-    console.log(this.name);
+    return this.name;
   }
 }
 
