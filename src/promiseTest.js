@@ -1,8 +1,8 @@
 function primiseTest() {
   return new Promise(resolve => {
     setTimeout(() => {
-      resolve("resolve")
-    })
+      resolve("resolve");
+    });
   });
 }
 

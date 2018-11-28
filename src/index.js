@@ -1,17 +1,19 @@
 import Test from "./classTest";
 import promiseTest from "./promiseTest";
-import {set} from "./setTest";
+import set from "./setTest";
 import arrowFn from "./arrowFnTest";
 
-let test = new Test("class test");
+const test = new Test("class test");
 test.showName();
 
-let promise=promiseTest();
+const a = ["1", "2", "4"];
+console.log(a);
+const promise = promiseTest();
 promise.then(result => console.log(result));
 
 console.log(set);
 
 arrowFn();
 
-let b=Object.assign({},{name:"x",count:3},{id: 12});
+const b = Object.assign({}, { name: "x", count: 3 }, { id: 12 });
 console.log(b);
